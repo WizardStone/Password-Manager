@@ -1,0 +1,39 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+}
+
+#username-password-input {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    gap: 20px;
+    #username {
+        font-family: 'Courier New', Courier, monospace;
+        height: 50px;
+        width: 250px;
+        font-size: 20px;
+    }
+
+    #password {
+        font-family: 'Courier New', Courier, monospace;
+        height: 50px;
+        width: 250px;
+        font-size: 20px;
+    }
+
+    #add-new-password {
+        height: 40px;
+        width: 200px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        background-color: rgb(8, 100, 191);
+    }
+}
+
+#small-text {
+    small {
+        position: fixed;
+        bottom: 0;
+    }
+}
