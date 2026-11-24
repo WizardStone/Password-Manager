@@ -3,10 +3,6 @@ html {
     overflow: hidden;
 }
 
-:root:fullscreen {
-    background-color: blue;
-}
-
 #username-password-input {
     display: flex;
     flex-direction: column;
@@ -24,20 +20,20 @@ html {
         height: 50px;
         width: 250px;
         font-size: 20px;
-    }`
+    }
 
     #add-new-password {
-        width: 250px;
+        height: 40px;
+        width: 200px;
         font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        background-color: rgb(8, 100, 191);
     }
 }
 
 #small-text {
-    display: flex;
-    flex-direction: column;
-    min-height: 50vh;
-    overflow: hidden;
     small {
-        margin-top: auto;
+        position: fixed;
+        bottom: 0;
     }
 }
