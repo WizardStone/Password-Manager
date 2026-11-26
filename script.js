@@ -3,6 +3,7 @@ const themeButton = document.getElementById("dual-theme-button");
 themeButton.addEventListener("click",function() {
   if (lightMode === true) {
     lightMode = false;
+    themeButton.style.backgroundImage = "url(img/light.png)"
     document.body.style.backgroundColor = "rgb(10,10,10)";
     document.getElementById("headings").style.color = "rgb(255,255,255)"
     //dual-theme button
@@ -24,6 +25,7 @@ themeButton.addEventListener("click",function() {
     document.getElementById("small-text").style.color = "rgb(255,255,255)";
   } else {
     lightMode = true;
+    themeButton.style.backgroundImage = "url(img/dark.png)"
     document.body.style.backgroundColor = "rgb(255,255,255)";
     document.getElementById("headings").style.color = "rgb(0,0,0)";
     //dual-theme button
