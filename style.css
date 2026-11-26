@@ -37,3 +37,11 @@ html {
         bottom: 0;
     }
 }
+
+#dual-theme {
+    #dual-theme-button {
+        position: fixed;
+        top: 5;
+        right: 5;
+    }
+}
