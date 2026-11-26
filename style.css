@@ -42,4 +42,7 @@ html {
     position: absolute;
     top: 5rem;
     right: 5rem;
+    #dual-theme-button {
+        backgroud-image: url("img/light.png")
+    }
 }
