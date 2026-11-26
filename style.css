@@ -39,9 +39,7 @@ html {
 }
 
 #dual-theme {
-    #dual-theme-button {
-        position: fixed;
-        top: 5;
-        right: 5;
-    }
+    position: fixed;
+    top: 5;
+    right: 5;
 }
