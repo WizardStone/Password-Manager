@@ -34,12 +34,12 @@ html {
 #small-text {
     small {
         position: fixed;
-        bottom: 0;
+        bottom: 0rem;
     }
 }
 
 #dual-theme {
-    position: fixed;
-    top: 5;
-    right: 5;
+    position: absolute;
+    top: 5rem;
+    right: 5rem;
 }
