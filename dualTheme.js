@@ -13,7 +13,7 @@ themeButton.addEventListener("click",function() {
     //password username
     document.getElementById("username").style.backgroundColor = "rgb(10,10,10)";
     document.getElementById("username").style.color = "rgb(255,255,255)";
-    document.getElementById("username").style.border = "rgb(255,255,255)";
+    document.getElementById("username").style.border = "rgb(0,0,0)";
     //password input
     document.getElementById("password").style.backgroundColor = "rgb(10,10,10)";
     document.getElementById("password").style.color = "rgb(255,255,255)";
@@ -38,7 +38,7 @@ themeButton.addEventListener("click",function() {
     //password username
     document.getElementById("username").style.backgroundColor = "rgb(255,255,255)";
     document.getElementById("username").style.color = "rgb(0,0,0)";
-    document.getElementById("username").style.border = "rgb(0,0,0)";
+    document.getElementById("username").style.border = "rgb(255,255,255)";
     //password input
     document.getElementById("password").style.backgroundColor = "rgb(255,255,255)";
     document.getElementById("password").style.color = "rgb(0,0,0)";
