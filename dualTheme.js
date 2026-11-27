@@ -3,6 +3,7 @@ const themeButton = document.getElementById("dual-theme-button");
 themeButton.addEventListener("click",function() {
   if (lightMode === true) {
     lightMode = false;
+    document.getElementById("show-hide-password").style.backgroundImage = "url(img/showLight.png)"
     themeButton.style.backgroundImage = "url(img/light.png)"
     document.body.style.backgroundColor = "rgb(10,10,10)";
     document.getElementById("headings").style.color = "rgb(255,255,255)"
@@ -26,6 +27,7 @@ themeButton.addEventListener("click",function() {
   } else {
     lightMode = true;
     themeButton.style.backgroundImage = "url(img/dark.png)"
+    document.getElementById("show-hide-password").style.backgroundImage = "url(img/show.png)"
     document.body.style.backgroundColor = "rgb(255,255,255)";
     document.getElementById("headings").style.color = "rgb(0,0,0)";
     //dual-theme button
