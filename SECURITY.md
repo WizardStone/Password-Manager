@@ -2,7 +2,8 @@
 
 ## Risks to the User
 
-All user data is saved to `localStorage` and vulnerable to exterior viewing. Saving any information to this service is ENTIRELY AT YOUR OWN RISK.
+All user data is saved to `localStorage` and vulnerable to exterior viewing. Saving any information to this service is ENTIRELY AT YOUR OWN RISK.  
+Note: GitHub stores IP addresses as logs when you access the website.
 
 ## Reporting any Vulnerabilities
 
